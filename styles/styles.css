@@ -1,0 +1,115 @@
+body{
+    font-size: 16px;
+    font-family: robto ,Arial, sans-serif;
+}
+
+nav {
+    background-color: darkblue;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: darkblue;
+}
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 3px gray;
+}
+p {
+    padding: 10px;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    width: 30rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2,);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+    
+}
+main img {
+    width: 150px;
+    height: auto;
+
+}
+p {padding: 0;}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+aside {
+    width: 20em;
+    text-align: center;
+} 
+aside {
+    position: absolute;
+    top: 47px;
+    left: 150px;;
+
+}
+
+header,.grid,footer{
+    max-width: 90%%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    padding: 1rem;
+    background-color: steelblue;
+    justify-content: space-evenly;
+}
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+main img {
+    /*you must lirely will have ther declaration here */
+    float:right;
+}
+.grid {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+} 
+main {
+    grid-column:2/3 ;
+    margin: 1rem;
+}
+aside {
+    width: 20rem;
+    position: relative; 
+    grid-column: 2/1;
+    grid-row: 1/2
+}

@@ -1,0 +1,214 @@
+:root {
+    --primary-color: #0044cc; /* Blue */
+    --secondary-color: #222222; /* Black */
+    --accent-color: #8B4513; /* Brown */
+    --highlight-color: #800080; /* Purple */
+    --text-color: #333333;
+    --background-color: #f9f9f9;
+}
+header {
+    background-color: #ace; /* Dark background color */
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 150px 5fr; /* Adjust the width of the logo and navigation */
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Add a border at the bottom */
+    width: 100%; /* Limit the width of the header */
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 100px;  /* Adjust logo size */
+    height: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+.navigation li {
+	flex: 1 1 auto;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Acme, Arial, sans-serfi;
+}
+
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em auto;
+	border: 1px solid rgb(0 0 0 / 0.1);
+	padding: 1em;
+	background-color: #ace;
+	width: 96%;
+	font-size: 1.2rem;
+    top: -35rem;
+    position: relative;
+}
+article img {
+    display: block;
+    width: 25%;
+    height: auto;
+}
+article h2 {
+    font-size: 2rem;
+    color: #003366;
+    margin: 0.5em 0;
+}
+
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0.5em 0;
+    top: -35rem;
+    position: relative;
+    color: #003366;
+}
+article p {
+    font-size: 1.5rem;
+    color: #003366;
+    margin: 0.5em 0; 
+
+}
+.history {
+    max-width: 100%;
+    margin: auto; 
+    padding: 1em;
+    background-color: #ace;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    text-align: center;
+    top: -30rem;
+    position: relative;
+}
+.history-im {
+    display: flex;
+    flex-direction: row;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #ace;
+    width: 90%;
+    font-size: 1.2rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+}
+  
+.history-im img {
+   display: inline-block;
+   margin: 0 20px;
+   width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    transition: 0.3s;
+    align-items: center;
+}
+
+.history-im p {
+    display: inline-block;
+    max-width: 70%;
+    text-align: justify;
+}
+.history-im img:hover {
+    transform: scale(1.1);
+}
+.adventure {
+    width:100% ;
+    height: 100%;
+    border: 3px burlywood;
+    background-color: bisque;
+    text-align:center ;
+    top: -30rem;
+    position: relative;
+
+}
+
+.adventure-images {
+    grid-area: 40px;
+    border: 3px burlywood;
+    background-color: bisque;
+    justify-content:space-around
+    
+}
+.adventure-images img {
+    width: 220px;
+    height: auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    box-shadow: 0 0 10px #ccc;
+    transition: 0.3s;
+    margin: 1em;
+    align-items: flex-start;
+}
+.caption {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #222;
+    color: aquamarine;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    flex-direction:column-reverse ;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh; 
+    background-color: #8B4513;
+    top: -100rem;
+}
+footer img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+    position: fixe;
+    right: 10px;
+    top: 50px;
+    width: 50px;
+    transform: translateZ(-50);
+}
+footer p{
+    text-align: center;
+    padding: 20px;
+    border: #333;
+    color: white;
+    margin-top: auto;
+}
+footer p {
+    margin: 5px 0;
+}
+footer img {
+    width: 40px;
+    height: auto;
+    margin-bottom :10px; 
+}

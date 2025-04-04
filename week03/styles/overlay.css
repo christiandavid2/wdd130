@@ -1,0 +1,41 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Open Sans', sans-serif;
+    --base-padding: 1rem;
+    --base-margin: 1rem;
+    --border-radius: 10px;
+}
+
+stats {
+    position: absolute; /* Or 'fixed' if it should stay in place while scrolling */
+    bottom: 20px; /* Moves it to the bottom */
+    left: 20px;   /* Moves it to the left */
+    right: auto;  /* Ensures it is not anchored to the right */
+    top: auto;    /* Ensures it is not anchored to the top */
+}
+.herodiv {
+    position: relative;
+}
+
+p {
+	text-align: justify;
+}
+
+.col1 img {
+	float: right;
+	margin: 0 0 15px 15px;
+	border: 1px solid rgba(0 0 0 / .3);
+	box-shadow: 0 0 30px #777;
+}
+
+footer {
+	border-top: 1px solid #555;
+	padding-top: 5px;
+	/* Remove the comment below and observe the results. */
+	
+  /* clear: both; */
+}
