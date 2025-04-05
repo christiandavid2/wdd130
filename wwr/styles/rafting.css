@@ -180,18 +180,17 @@ footer{
     justify-content: space-between;
     height: 10vh; 
     background-color: #8B4513;
-    top: -100rem;
+
 }
 footer img {
-
     flex-direction: column;
     align-items: flex-end;
     padding: 20px;
-    display: fixe;
     right: 10px;
     top: 50px;
     width: 50px;
     transform: translateZ(-50px);
+    height: auto;
 }
 footer p{
     text-align: center;
